@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yuta Iinuma</title>
+</head>
+<body>
+    <header class="flex space_between">
+        <p class="logo"><a href="index.html#yuta">Iinuma Yuta</a></p>
+        <div class="nav-wrapper">
+            <nav class="nav_menu">
+                <ul class="flex">
+                    <li class="nav_item"><a href="index.html#philosophy">Philosophy</a></li>
+                    <li class="nav_item"><a href="index.html#service">Service</a></li>
+                    <li class="nav_item"><a href="index.html#skills">Skills</a></li>
+                    <li class="nav_item"><a href="index.html#performance">Performance</a></li>
+                    <li class="nav_item"><a href="index.html#introduction">Introduction</a></li>
+                    <li class="nav_item"><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    </header>
+   
+    <main>
+        <div class="contact_top">
+            <h2 class="top_title">Contact</h2>
+        </div>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdTm19plhfVhUnFxdHGyXEn1BLAydB6HQFhre4n5Y5-DKcTjw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+            <table class="form_table2">
+                <tr>
+                    <th class="input_th">氏名</th>
+                </tr>
+                <tr>
+                    <td class="input_td"><input type="text" name="entry.1207808671" placeholder="ex) 山田 太郎" required=""></td>
+                </tr>
+                <tr>
+                    <th class="input_th">メールアドレス</th>
+                </tr>
+                <tr>
+                    <td class="input_td"><input type="text" name="entry.1369767643" placeholder="ex) abc.123@xxx.com" required=""></td>
+                </tr>
+                <tr>
+                    <th class="input_th">件名</th>
+                </tr>
+                <tr>
+                    <td class="input_td"><input type="text" name="entry.1259789257" placeholder="ex) 新規Webサイト制作の件" required=""></td>
+                </tr>
+                <tr>
+                    <th class="area_th">お問い合わせ内容</th>
+                </tr>
+                <tr>
+                    <td class="area_td">
+                        <textarea name="entry.1727608956" id="" cols="30" rows="10" placeholder="お気軽にご相談ください。" required=""></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div class="text_center">
+                <button class="form_button" type="submit">送信する</button>
+            </div>
+        </form>
+        <script type="text/javascript">var submitted = false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
+    </main>
+    <footer>
+        <p class="copyright">Copyright ©︎ 2021 YutaIinuma All Rights Reserved</p>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.autoplay').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });   
+      });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
