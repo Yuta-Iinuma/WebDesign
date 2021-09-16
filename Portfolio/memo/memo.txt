@@ -1,0 +1,21 @@
+＜エレクトロニクス＞
+アナログテスタを用いた直流回路実験
+・電圧計、電流計による抵抗測定
+オシロスコープを用いた交流回路実験
+・正弦波電圧の測定
+
+・パルス信号発生器と入力回路と出力回路を加えたJ-Kフリップフロップ回路を作成し、動作を確認する
+・ファンクションジェネレータによるクロック信号(短形波)を与え、オシロスコープで波形を観察する。
+・入力クロック信号の周波数を３通り変更して、出力波形をオシロスコープで観察し、周波数毎のハザードの発生を確認する
+・ハザード対策を施した同期式カウンタ回路と非同期式カウンタ回路を用いて、論理関数上で期待される動作回路をタイミングチャートを用いて比較し、正常に動作しているかの確認
+
+＜Webサーバ管理＞
+Apache Bench(version 2.4)、を利⽤した。サーバの設定値を変化させApache httpdを再起動し、同時アクセス数を100/秒と設定し、4000のアクセスをindex.html
+へ対して実⾏し、1秒間に捌けるリクエスト数(Request per second)を記録する。
+これらを２つOSを⽤いて⽐較する。使⽤するOSはCentOS7.6-1810 とUbuntu Desktop 18.04.3 LTSを使⽤する。
+
+<form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfrmf9T6nKjOpBmWAMnXyyuLWwC2usC3KMvhEiBBA61qjsj6w/formResponse?embedded=true" target="_self" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0" data-last-entry="4" data-is-first-page="true">
+<input type="hidden" name="entry.1687233897" value="">
+<input type="hidden" name="entry.823582083" value="">
+<input type="hidden" name="entry.655244887" value="">
+<input type="hidden" name="entry.1011476410" value="">
